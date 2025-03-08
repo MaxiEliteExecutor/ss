@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executer Name - Versions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            padding-left: 20px;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 900px;
+            margin: 120px auto 0 auto;
+            padding: 50px 20px;
+        }
+        .version-card {
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(255, 0, 127, 0.3);
+            margin-bottom: 20px;
+            text-align: left; /* Align text left */
+        }
+        .version-card h3 {
+            margin: 0;
+            font-size: 22px;
+        }
+        .version-card p {
+            font-size: 14px;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff007f, #ff7b00);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        .download-btn:hover {
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.5);
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Executer Name</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="versions.html">Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Executer Name Versions</h2>
+        <p>Explore the available releases of Executer Name and choose the version that fits your needs.</p>
+        
+        <!-- Version 1.0 -->
+        <div class="version-card">
+            <h3>Version 1.0 - Stable Release</h3>
+            <p>Initial public release. Fully tested and optimized for general use.</p>
+            <a href="#" class="download-btn">Download Version 1.0</a>
+        </div>
+        
+        <!-- Version 1.1 -->
+        <div class="version-card">
+            <h3>Version 1.1 - Beta Release</h3>
+            <p>New features and improvements, still in beta testing. Available for advanced users.</p>
+            <a href="#" class="download-btn">Download Version 1.1</a>
+        </div>
+        
+        <!-- Version 1.2 -->
+        <div class="version-card">
+            <h3>Version 1.2 - Developer Build</h3>
+            <p>Experimental features and updates for developers. May have bugs.</p>
+            <a href="#" class="download-btn">Download Version 1.2</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Executer Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

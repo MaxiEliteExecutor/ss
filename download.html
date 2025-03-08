@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executer Name - Download</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000;
+            color: white;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+        .download {
+            margin-top: 40px; /* Added margin-top to push everything down */
+        }
+        .download-options {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .download-card {
+            background: #111;
+            padding: 25px;
+            border-radius: 10px;
+            width: 280px;
+            box-shadow: 0 4px 10px rgba(255, 0, 127, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+        .download-card:hover {
+            transform: scale(1.05);
+        }
+        .cta-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff007f, #ff7b00);
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .cta-btn:hover {
+            box-shadow: 0 4px 15px rgba(255, 0, 127, 0.5);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Executer Name</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="versions.html">Versions</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="download">
+        <div class="container">
+            <h2>Download Executer Name</h2>
+            <p>Experience the best in script execution. Choose the version that suits you best.</p>
+            
+            <div class="download-options">
+                <div class="download-card">
+                    <h3>Stable Release</h3>
+                    <p>Recommended for most users. Fully tested and optimized.</p>
+                    <a href="#" class="cta-btn">Download Stable</a>
+                </div>
+                <div class="download-card">
+                    <h3>Beta Release</h3>
+                    <p>Try out new features before they are fully released.</p>
+                    <a href="#" class="cta-btn">Download Beta</a>
+                </div>
+                <div class="download-card">
+                    <h3>Developer Build</h3>
+                    <p>For developers who want the latest experimental features.</p>
+                    <a href="#" class="cta-btn">Download Dev</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Executer Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
